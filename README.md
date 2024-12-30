@@ -8,8 +8,8 @@ Decompiled MCP 919, refactored and setup with Gradle.
 2. Download and extract [MCP 1.8.9 SRGs](https://github.com/ModCoderPack/MCPMappingsArchive/raw/refs/heads/master/mcp/1.8.9/mcp-1.8.9-srg.zip) to `~/conf`.
 3. Decompile by running `decompile`.
 
-    > Windows: `decompile.bat`  
-    > Linux: `decompile.sh`
+    > Windows: `./decompile.bat`  
+    > Linux: `./decompile.sh`
 
 4. (Optional) Correct errors.
 
@@ -22,7 +22,8 @@ Decompiled MCP 919, refactored and setup with Gradle.
 
 5. Cleanup the workspace.
 
-    > Relocated .jars to `libs`
+    > Relocated .jars to `~/libs`  
+    > Copied natives (`~/run/versions/1.8.8/1.8.8-natives`) to `natives`
 
 6. Create the gradle script.
 
@@ -31,7 +32,6 @@ Decompiled MCP 919, refactored and setup with Gradle.
 1. Download and extract the source.
 2. Import the project into your IDE.
 3. Done!
-
 
 ## Copyright
 
