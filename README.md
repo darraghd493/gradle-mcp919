@@ -33,9 +33,15 @@ Decompiled MCP 919, refactored and setup with Gradle.
 2. Import the project into your IDE.
 3. Done!
 
+## Information
+
+- This is only suitable for Windows. Linux and macOS are not currently supported in this configuration.
+- The native libraries path is automatically set in `~/src/test/java/Start`.
+
 ## Copyright
 
 LICENSE.txt - MCP license.
+
 ```
 MCP - Mod Coder Pack
 MCP is (c) Copyright by the MCP Team
